@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 15rem;
+}
+
+.logo {
+  color: #666;
+  font-size: 2rem;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.link {
+  color: #333;
+}
+
+.link:hover {
+  color: #337ab7;
+}
+
+.main-section {
+  background: url(../img/ocean.jpeg) center/cover no-repeat fixed;
+}
+
+.main-article {
+  height: 91.5vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 5rem;
+}
+
+.section-text {
+  font-size: 1.15rem;
+  margin: 4rem 0 3rem 0;
+}
+
+.button-download {
+  border: 1px solid #fff;
+  padding: 1rem 3rem;
+}
+
+.button-purple {
+  background: #745cf9;
+  color: white;
+  border: 1px solid #745cf9;
+  padding: 1rem 4.5rem;
+}
+
+.button-purple:hover {
+  background: #5234f9;
+  border-color: #5234f9;
+}
+
+.macbook {
+  padding: 7rem 0 7rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  justify-content: start;
+}
+
+.macbook-article {
+  width: 65%;
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+.macbook-article-title {
+  color: #0e1015;
+}
+
+.macbook-article-text {
+  color: #8c979e;
+  margin: 1rem 0 2rem;
+}
+
+.bg-gray {
+  background: #f4f4f4;
+}
